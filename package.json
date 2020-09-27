@@ -1,0 +1,34 @@
+{
+  "name": "borongcoin",
+  "version": "1.0.3",
+  "description": "A blockchain for educational purpose",
+  "main": "src/blockChain.js",
+  "keywords": [
+    "blockchain",
+    "bitcoin"
+  ],
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "elliptic": "^6.5.2",
+    "borongcoin": "^1.0.2"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
+  },
+  "scripts": {
+    "test": "jest src/tests"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zbr1920410104/BorongCoin.git"
+  },
+  "author": "Aaron Yang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zbr1920410104/BorongCoin/issues"
+  },
+  "homepage": "https://github.com/Zbr1920410104/BorongCoin#readme"
+}
